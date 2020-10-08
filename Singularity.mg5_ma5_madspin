@@ -13,10 +13,11 @@ From: oliviermattelaer/singularity-recipe:mg5_ma5_py8
     rm 2HDM_NLO.tar.gz
 
     # vi
-    cd /usr
-    apt-get -y install vim
-    echo "set text_editor vi;" > cmd.txt
-    ./mg5amcnlo/bin/mg5 cmd.txt
+    # not working .....
+    #cd /usr
+    #apt-get -y install vim
+    #echo "set text_editor vi;" > cmd.txt
+    #./mg5amcnlo/bin/mg5 cmd.txt
     
     # for madspin
     chmod 777 /usr/mg5amcnlo/input/mg5_configuration.txt
